@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://4h7vin2ty8s0"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(200, 200)
+
+[node name="Text" type="RichTextLabel" parent="."]
+modulate = Color(0, 0, 0, 1)
+z_index = 1
+offset_right = 1151.0
+offset_bottom = 644.0
+theme_override_font_sizes/normal_font_size = 151
+text = "YOU LOSE :("
+fit_content = true
+scroll_active = false
+autowrap_mode = 0

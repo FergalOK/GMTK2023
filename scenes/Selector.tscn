@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://byfuvfptl85ql"]
+
+[ext_resource type="Script" path="res://Selector.gd" id="1_ylql3"]
+[ext_resource type="PackedScene" uid="uid://bwvsferl03igp" path="res://scenes/Soldier.tscn" id="2_5dw8k"]
+[ext_resource type="PackedScene" uid="uid://c4d73vmy86vjx" path="res://scenes/Main.tscn" id="3_p4icf"]
+
+[node name="Selector" type="Node2D"]
+script = ExtResource("1_ylql3")
+soldier_scene = ExtResource("2_5dw8k")
+main_scene = ExtResource("3_p4icf")
+
+[node name="HealthText" type="RichTextLabel" parent="."]
+modulate = Color(0, 0, 0, 1)
+z_index = 1
+offset_right = 1151.0
+offset_bottom = 644.0
+theme_override_font_sizes/normal_font_size = 100
+text = "Health: 50"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
